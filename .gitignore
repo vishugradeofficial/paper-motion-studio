@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+node_modules/
+work/
+out/
+__pycache__/
+.DS_Store
+studio/public/generated/
