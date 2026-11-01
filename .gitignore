@@ -7,3 +7,4 @@ out/
 __pycache__/
 .DS_Store
 studio/public/generated/
+.venv/

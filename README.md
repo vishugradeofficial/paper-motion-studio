@@ -32,7 +32,7 @@ Ask your coding agent to read [SKILL.md](SKILL.md), then give it a topic, audien
 python scripts/project.py new my-topic --duration 36
 ```
 
-Edit the generated `projects/my-topic/project.json`: script, brand colors, headings, layouts, example content and sound cues. Six reusable templates are included: hook, prompt, steps, comparison, timeline and finish. For a new diagram, screenshot insert or product demonstration, edit `studio/src/Reel.tsx`. This is an editable production toolkit, not an automatic author or a guaranteed replica of the reference films.
+Edit the generated `projects/my-topic/project.json`: script, brand colors, headings, layouts, example content and sound cues. Seven reusable templates are included: hook, prompt, steps, connected-card map, comparison, timeline and finish. For a new diagram, screenshot insert or product demonstration, edit `studio/src/Reel.tsx`. This is an editable production toolkit, not an automatic author or a guaranteed replica of the reference films.
 
 ## Voice and sound
 
@@ -52,14 +52,14 @@ The original example has six ElevenLabs Will voice clips: **313 credits** in tot
 
 ## Files and validation
 
-- `studio/src/Reel.tsx`: typography, six layouts, deterministic easing, illustrative diagrams and phrase captions.
+- `studio/src/Reel.tsx`: typography, seven layouts, deterministic easing, illustrative diagrams and phrase captions.
 - `scripts/project.py`: project creation, dependency checks and validation.
 - `scripts/audio.py`: explicit cached ElevenLabs generation, cue mixing, ducking and loudness measurement.
 - `scripts/render.mjs`: source-aware storyboard fingerprint, PNG board, preview/full MP4, frame and full-decode checks.
-- `scripts/test_pipeline.py`: seven offline checks for timeline gaps, invalid layouts, non-finite timing, asset bounds, overlapping speech and template item counts.
+- `scripts/test_pipeline.py`: eight offline checks for timeline gaps, invalid layouts, non-finite timing, asset bounds, overlapping speech and template item counts.
 - `references/`: visual/project guide and honest reference-review coverage.
 
-Fonts use local fallbacks, so exact glyph metrics can differ between systems. The timeline waveform is an illustration. Comparison bars are labelled illustrative, not measured performance data. Captions are phrase-timed; word-level karaoke requires an alignment layer. New media needs visual and listening review.
+Fonts use local fallbacks, so exact glyph metrics can differ between systems. Timeline tracks are schematic illustrations; sample reveal cues use the actual spoken words. Comparison bars are labelled illustrative, not measured performance data. Captions occupy phrase slots and highlight spoken words when ElevenLabs character alignment is available. Imported audio without alignment falls back to plain phrase captions. New media needs visual and listening review.
 
 ## License
 
