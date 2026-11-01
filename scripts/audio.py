@@ -1,7 +1,7 @@
 from pathlib import Path
 import argparse,base64,json,re,subprocess,sys,urllib.error
 import numpy as np
-from common import ROOT,SR,asset,load_project,decode,wav,request,fingerprint,loudness
+from common import ROOT,SR,asset,load_project,decode,wav,request,fingerprint,loudness,alignment_words
 
 def generate(p,kind,paid,replace=False,line=None):
     folder=ROOT/'studio/public/generated'/p['slug'];folder.mkdir(parents=True,exist_ok=True);ledger=ROOT/'work'/p['slug']/'credits.json';ledger.parent.mkdir(parents=True,exist_ok=True)
@@ -28,6 +28,9 @@ def generate(p,kind,paid,replace=False,line=None):
             entries.append({'id':item['id'],'kind':kind,'fingerprint':sig,'credits':cost,'evidence':'API character-cost header' if cost is not None else 'Unknown: API did not return a credit charge'})
             ledger.write_text(json.dumps(entries,indent=2))
         rel=str(target.relative_to(ROOT/'studio/public'));item['audio' if kind=='voice' else 'source']=rel
+        if kind=='voice' and meta.exists():
+            alignment=json.loads(meta.read_text()).get('alignment')
+            if alignment:item['words']=alignment_words(alignment,item['start'])
     print(json.dumps({'mode':'generate' if paid else 'dry-run','requests':pending,'characters':sum(x['characters'] for x in pending),'note':'Character count is not a guaranteed credit quote. Cache hits and existing provided audio cost no new credits.'},indent=2))
     return p
 

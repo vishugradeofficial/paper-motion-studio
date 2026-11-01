@@ -32,3 +32,9 @@ def loudness(path):
     import re
     r=subprocess.run(['ffmpeg','-hide_banner','-i',str(path),'-af','loudnorm=I=-14:TP=-1.5:LRA=9:print_format=json','-f','null','-'],capture_output=True,text=True,check=True)
     data=json.loads(re.findall(r'\{[\s\S]*?\}',r.stderr)[-1]);return float(data['input_i']),float(data['input_tp'])
+
+def alignment_words(alignment,offset=0):
+    import re
+    chars=alignment.get('characters',[]);starts=alignment.get('character_start_times_seconds',[]);ends=alignment.get('character_end_times_seconds',[])
+    if not(len(chars)==len(starts)==len(ends)):raise ValueError('Invalid character alignment')
+    return [{'text':m.group(),'start':round(offset+starts[m.start()],4),'end':round(offset+ends[m.end()-1],4)} for m in re.finditer(r'\S+',''.join(chars))]

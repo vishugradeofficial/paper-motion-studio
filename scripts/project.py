@@ -1,7 +1,7 @@
 from pathlib import Path
 import argparse,json,math,re,shutil,subprocess,sys
 from common import ROOT,asset
-CAMERAS={'hook','prompt','steps','compare','timeline','finish'}
+CAMERAS={'hook','prompt','steps','compare','timeline','finish','map'}
 def validate(p):
     errors=[]
     for name in ['slug','title','duration','fps','width','height','shots','dialogue']:
