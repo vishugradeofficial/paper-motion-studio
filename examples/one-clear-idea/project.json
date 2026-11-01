@@ -1,0 +1,510 @@
+{
+  "version": 1,
+  "slug": "one-clear-idea",
+  "title": "One Clear Idea",
+  "composition": "PaperReel",
+  "duration": 36,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "brand": {
+    "name": "PAPER / MOTION",
+    "accent": "#3866D9",
+    "paper": "#FCFCFC",
+    "ink": "#15171B",
+    "grid": {
+      "kind": "grid",
+      "spacing": 72,
+      "opacity": 0.34,
+      "lineWidth": 1.2
+    }
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 6,
+      "layout": "hook",
+      "heading": "Too much to say?",
+      "emphasis": "Start with one idea.",
+      "note": "I used to put everything into one video."
+    },
+    {
+      "id": "S02",
+      "start": 6,
+      "end": 12,
+      "layout": "prompt",
+      "heading": "One clear question.",
+      "emphasis": "What should stay?",
+      "note": "Now, I start with one question. What should someone remember?"
+    },
+    {
+      "id": "S03",
+      "start": 12,
+      "end": 18,
+      "layout": "map",
+      "heading": "Show the change.",
+      "emphasis": "Problem. Step. Result.",
+      "note": "I show the problem, one useful step, then the result."
+    },
+    {
+      "id": "S04",
+      "start": 18,
+      "end": 24,
+      "layout": "compare",
+      "heading": "Keep what helps.",
+      "emphasis": "Less, but clearer.",
+      "note": "I cut anything that doesn't help that idea."
+    },
+    {
+      "id": "S05",
+      "start": 24,
+      "end": 30,
+      "layout": "timeline",
+      "heading": "Give it a beat.",
+      "emphasis": "Let the picture speak.",
+      "note": "Then I leave a beat... and let the picture explain.",
+      "theme": "dark",
+      "cues": [
+        {
+          "label": "A beat",
+          "at": 25.12
+        },
+        {
+          "label": "A picture",
+          "at": 27.34
+        },
+        {
+          "label": "Explain",
+          "at": 27.83
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "start": 30,
+      "end": 36,
+      "layout": "finish",
+      "heading": "One sentence first.",
+      "emphasis": "Then build around it.",
+      "note": "For your next video, write one sentence first. Build around that."
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "line-1",
+      "speaker": "creator",
+      "start": 0.4,
+      "end": 2.72,
+      "voiceId": "bIHbv24MWmeRgasZH58o",
+      "model": "eleven_v3",
+      "text": "I used to put everything into one video.",
+      "audio": "samples/line-1.mp3",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.4,
+          "end": 0.48
+        },
+        {
+          "text": "used",
+          "start": 0.512,
+          "end": 0.64
+        },
+        {
+          "text": "to",
+          "start": 0.667,
+          "end": 0.72
+        },
+        {
+          "text": "put",
+          "start": 0.78,
+          "end": 0.96
+        },
+        {
+          "text": "everything",
+          "start": 0.996,
+          "end": 1.36
+        },
+        {
+          "text": "into",
+          "start": 1.408,
+          "end": 1.6
+        },
+        {
+          "text": "one",
+          "start": 1.66,
+          "end": 1.84
+        },
+        {
+          "text": "video.",
+          "start": 1.92,
+          "end": 2.72
+        }
+      ]
+    },
+    {
+      "id": "line-2",
+      "speaker": "creator",
+      "start": 6.4,
+      "end": 11.36,
+      "voiceId": "bIHbv24MWmeRgasZH58o",
+      "model": "eleven_v3",
+      "text": "Now, I start with one question. What should someone remember?",
+      "audio": "samples/line-2.mp3",
+      "words": [
+        {
+          "text": "Now,",
+          "start": 6.4,
+          "end": 6.8
+        },
+        {
+          "text": "I",
+          "start": 7.0,
+          "end": 7.2
+        },
+        {
+          "text": "start",
+          "start": 7.253,
+          "end": 7.52
+        },
+        {
+          "text": "with",
+          "start": 7.552,
+          "end": 7.68
+        },
+        {
+          "text": "one",
+          "start": 7.74,
+          "end": 7.92
+        },
+        {
+          "text": "question.",
+          "start": 7.991,
+          "end": 8.8
+        },
+        {
+          "text": "What",
+          "start": 9.024,
+          "end": 9.92
+        },
+        {
+          "text": "should",
+          "start": 9.943,
+          "end": 10.08
+        },
+        {
+          "text": "someone",
+          "start": 10.13,
+          "end": 10.48
+        },
+        {
+          "text": "remember?",
+          "start": 10.542,
+          "end": 11.36
+        }
+      ]
+    },
+    {
+      "id": "line-3",
+      "speaker": "creator",
+      "start": 12.4,
+      "end": 16.88,
+      "voiceId": "bIHbv24MWmeRgasZH58o",
+      "model": "eleven_v3",
+      "text": "I show the problem, one useful step, then the result.",
+      "audio": "samples/line-3.mp3",
+      "words": [
+        {
+          "text": "I",
+          "start": 12.4,
+          "end": 12.48
+        },
+        {
+          "text": "show",
+          "start": 12.528,
+          "end": 12.72
+        },
+        {
+          "text": "the",
+          "start": 12.74,
+          "end": 12.8
+        },
+        {
+          "text": "problem,",
+          "start": 12.86,
+          "end": 13.76
+        },
+        {
+          "text": "one",
+          "start": 13.82,
+          "end": 14.0
+        },
+        {
+          "text": "useful",
+          "start": 14.057,
+          "end": 14.4
+        },
+        {
+          "text": "step,",
+          "start": 14.48,
+          "end": 15.36
+        },
+        {
+          "text": "then",
+          "start": 15.44,
+          "end": 15.76
+        },
+        {
+          "text": "the",
+          "start": 15.84,
+          "end": 16.08
+        },
+        {
+          "text": "result.",
+          "start": 16.149,
+          "end": 16.88
+        }
+      ]
+    },
+    {
+      "id": "line-4",
+      "speaker": "creator",
+      "start": 18.4,
+      "end": 20.88,
+      "voiceId": "bIHbv24MWmeRgasZH58o",
+      "model": "eleven_v3",
+      "text": "I cut anything that doesn't help that idea.",
+      "audio": "samples/line-4.mp3",
+      "words": [
+        {
+          "text": "I",
+          "start": 18.4,
+          "end": 18.56
+        },
+        {
+          "text": "cut",
+          "start": 18.62,
+          "end": 18.8
+        },
+        {
+          "text": "anything",
+          "start": 18.844,
+          "end": 19.2
+        },
+        {
+          "text": "that",
+          "start": 19.248,
+          "end": 19.44
+        },
+        {
+          "text": "doesn't",
+          "start": 19.467,
+          "end": 19.68
+        },
+        {
+          "text": "help",
+          "start": 19.744,
+          "end": 20.0
+        },
+        {
+          "text": "that",
+          "start": 20.032,
+          "end": 20.16
+        },
+        {
+          "text": "idea.",
+          "start": 20.256,
+          "end": 20.88
+        }
+      ]
+    },
+    {
+      "id": "line-5",
+      "speaker": "creator",
+      "start": 24.4,
+      "end": 28.64,
+      "voiceId": "bIHbv24MWmeRgasZH58o",
+      "model": "eleven_v3",
+      "text": "Then I leave a beat... and let the picture explain.",
+      "audio": "samples/line-5.mp3",
+      "words": [
+        {
+          "text": "Then",
+          "start": 24.4,
+          "end": 24.64
+        },
+        {
+          "text": "I",
+          "start": 24.68,
+          "end": 24.72
+        },
+        {
+          "text": "leave",
+          "start": 24.76,
+          "end": 24.96
+        },
+        {
+          "text": "a",
+          "start": 25.0,
+          "end": 25.04
+        },
+        {
+          "text": "beat...",
+          "start": 25.12,
+          "end": 26.88
+        },
+        {
+          "text": "and",
+          "start": 26.92,
+          "end": 27.04
+        },
+        {
+          "text": "let",
+          "start": 27.08,
+          "end": 27.2
+        },
+        {
+          "text": "the",
+          "start": 27.22,
+          "end": 27.28
+        },
+        {
+          "text": "picture",
+          "start": 27.34,
+          "end": 27.76
+        },
+        {
+          "text": "explain.",
+          "start": 27.83,
+          "end": 28.64
+        }
+      ]
+    },
+    {
+      "id": "line-6",
+      "speaker": "creator",
+      "start": 30.4,
+      "end": 35.36,
+      "voiceId": "bIHbv24MWmeRgasZH58o",
+      "model": "eleven_v3",
+      "text": "For your next video, write one sentence first. Build around that.",
+      "audio": "samples/line-6.mp3",
+      "words": [
+        {
+          "text": "For",
+          "start": 30.4,
+          "end": 30.48
+        },
+        {
+          "text": "your",
+          "start": 30.512,
+          "end": 30.64
+        },
+        {
+          "text": "next",
+          "start": 30.688,
+          "end": 30.88
+        },
+        {
+          "text": "video,",
+          "start": 30.973,
+          "end": 31.84
+        },
+        {
+          "text": "write",
+          "start": 31.88,
+          "end": 32.08
+        },
+        {
+          "text": "one",
+          "start": 32.16,
+          "end": 32.4
+        },
+        {
+          "text": "sentence",
+          "start": 32.453,
+          "end": 32.88
+        },
+        {
+          "text": "first.",
+          "start": 32.973,
+          "end": 34.0
+        },
+        {
+          "text": "Build",
+          "start": 34.093,
+          "end": 34.56
+        },
+        {
+          "text": "around",
+          "start": 34.606,
+          "end": 34.88
+        },
+        {
+          "text": "that.",
+          "start": 34.96,
+          "end": 35.36
+        }
+      ]
+    }
+  ],
+  "sound": [
+    {
+      "id": "card-1",
+      "start": 0.1,
+      "end": 0.28,
+      "source": "procedural:click",
+      "gain": 0.12,
+      "role": "foley"
+    },
+    {
+      "id": "card-2",
+      "start": 6.1,
+      "end": 6.28,
+      "source": "procedural:click",
+      "gain": 0.12,
+      "role": "foley"
+    },
+    {
+      "id": "card-3",
+      "start": 12.1,
+      "end": 12.28,
+      "source": "procedural:click",
+      "gain": 0.12,
+      "role": "foley"
+    },
+    {
+      "id": "card-4",
+      "start": 18.1,
+      "end": 18.28,
+      "source": "procedural:click",
+      "gain": 0.12,
+      "role": "foley"
+    },
+    {
+      "id": "card-5",
+      "start": 24.1,
+      "end": 24.28,
+      "source": "procedural:click",
+      "gain": 0.12,
+      "role": "foley"
+    },
+    {
+      "id": "card-6",
+      "start": 30.1,
+      "end": 30.28,
+      "source": "procedural:click",
+      "gain": 0.12,
+      "role": "foley"
+    },
+    {
+      "id": "score",
+      "start": 0,
+      "end": 36,
+      "source": "procedural:bed",
+      "gain": 0.35,
+      "role": "music"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "One Clear Idea",
+  "video": "one-clear-idea-final.mp4",
+  "duration": 36,
+  "frames": 1080,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "decode": "passed",
+  "renderServiceCalls": 0,
+  "knownProjectGenerationCredits": 313,
+  "unknownCreditEntries": 0,
+  "audio": {
+    "duration": 36,
+    "integrated_lufs": -14.27,
+    "true_peak_dbtp": -1.87,
+    "dialogue_cues": [
+      {
+        "id": "line-1",
+        "start": 0.4,
+        "end": 2.7199999999999998
+      },
+      {
+        "id": "line-2",
+        "start": 6.4,
+        "end": 11.36
+      },
+      {
+        "id": "line-3",
+        "start": 12.4,
+        "end": 16.880000000000003
+      },
+      {
+        "id": "line-4",
+        "start": 18.4,
+        "end": 20.88
+      },
+      {
+        "id": "line-5",
+        "start": 24.4,
+        "end": 28.64
+      },
+      {
+        "id": "line-6",
+        "start": 30.4,
+        "end": 35.36
+      }
+    ],
+    "speech_time_stretched": false,
+    "sources": [
+      "procedural:click",
+      "procedural:click",
+      "procedural:click",
+      "procedural:click",
+      "procedural:click",
+      "procedural:click",
+      "procedural:bed"
+    ],
+    "generated_service_calls": 0,
+    "review_note": "Listen to the full mix with picture. This report measures signals, not acting quality. Null loudness/peak denotes silence."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "speech_service": "ElevenLabs",
+  "voice": "Will",
+  "voice_id": "bIHbv24MWmeRgasZH58o",
+  "model": "eleven_v3",
+  "credits": 313,
+  "unknown_credit_entries": 0,
+  "events": [
+    {
+      "id": "line-1",
+      "kind": "voice",
+      "fingerprint": "33c9261f3d211e74ca",
+      "credits": 40,
+      "evidence": "API character-cost header"
+    },
+    {
+      "id": "line-2",
+      "kind": "voice",
+      "fingerprint": "fdd29a24ad68a4853c",
+      "credits": 61,
+      "evidence": "API character-cost header"
+    },
+    {
+      "id": "line-3",
+      "kind": "voice",
+      "fingerprint": "fd05ff2e330f57510f",
+      "credits": 53,
+      "evidence": "API character-cost header"
+    },
+    {
+      "id": "line-4",
+      "kind": "voice",
+      "fingerprint": "7ff069b783daa05847",
+      "credits": 43,
+      "evidence": "API character-cost header"
+    },
+    {
+      "id": "line-5",
+      "kind": "voice",
+      "fingerprint": "c276b0c1604296e8fc",
+      "credits": 51,
+      "evidence": "API character-cost header"
+    },
+    {
+      "id": "line-6",
+      "kind": "voice",
+      "fingerprint": "515f25f9bf0b3297c0",
+      "credits": 65,
+      "evidence": "API character-cost header"
+    }
+  ],
+  "effects_and_music": "Locally synthesized click and harmonic bed; not ElevenLabs output.",
+  "listening_review": "Not performed by the automation; review with picture before posting."
+}
