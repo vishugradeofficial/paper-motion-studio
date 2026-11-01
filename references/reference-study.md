@@ -12,3 +12,7 @@ References supplied by the user, reviewed 1 November 2026:
 All four pages visibly identified mrcreates.ai as the creator. Review covered displayed browser frames and page captions, not a frame-by-frame review of all four films. The first player's DOM reported 1080 × 1920 and 47.7 seconds. The download attempt on its blob video failed. Reference audio was not listened to or transcribed, so voice timbre, instruments, loudness, exact effect timing and complete cut cadence have not been verified.
 
 Design decisions in this starter are an interpretation: portrait paper canvas; thin grid; one dominant typographic idea; blue selection/emphasis; readable animated cards; diagrams linked to the explanation. The reference creator's black-and-white avatar, logo, footage, scripts, captions and audio are not included. The sample uses original words and code-authored visuals. It is neither affiliated with the creator nor claimed to reproduce their production pipeline.
+
+## Additional supplied screenshots
+
+The user supplied three stills during implementation: a light grid with a browser/screenshot panel, a connected reference-to-analysis card diagram, and a dark dotted word-to-edit timeline. These were inspected directly. The revision increases grid visibility, adds a connected-card map and dark dot theme, and uses available ElevenLabs word alignment for caption highlights and timeline reveals. No claim is made about unseen frames or the reference soundtrack.
